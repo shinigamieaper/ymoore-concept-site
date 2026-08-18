@@ -1,4 +1,4 @@
-import { Wordmark } from "./Nav";
+import Logo from "./Logo";
 import { INSTAGRAM, PHONE_DISPLAY, WHATSAPP } from "@/lib/content";
 
 export default function Footer() {
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="shell">
         <div className="grid gap-8 md:grid-cols-[1.4fr_1fr_1fr] md:gap-12">
           <div>
-            <Wordmark />
+            <Logo tone="light" />
             <p className="mt-4 max-w-[34ch]">
               Furniture and interior design, built in Lagos and delivered across
               Nigeria.

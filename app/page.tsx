@@ -1,11 +1,10 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import Band from "@/components/Band";
-import Collection from "@/components/Collection";
+import TrustBar from "@/components/TrustBar";
 import Categories from "@/components/Categories";
-import Ways from "@/components/Ways";
-import Rates from "@/components/Rates";
+import Collection from "@/components/Collection";
 import DesignService from "@/components/DesignService";
+import Rates from "@/components/Rates";
 import Process from "@/components/Process";
 import Proof from "@/components/Proof";
 import Reviews from "@/components/Reviews";
@@ -19,10 +18,9 @@ export default function Page() {
       <Nav />
       <main>
         <Hero />
-        <Band />
-        <Collection />
+        <TrustBar />
         <Categories />
-        <Ways />
+        <Collection />
         <DesignService />
         <Rates />
         <Process />
