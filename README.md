@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yetty Moore Concept - design preview
 
-## Getting Started
+A speculative website mockup for Yetty Moore Concept, a furniture and interior
+design business in Lagos (Instagram @yettymoore_concept).
 
-First, run the development server:
+Built by Growveloper as a sales preview. It is not the client's live shop, and
+nothing on it takes payment.
 
-```bash
+## What is real vs placeholder
+
+Real, taken from the client's own Instagram:
+
+- Product lines: sofas, beds and wardrobes, dining sets, TV stands and centre
+  tables, office furniture, custom pieces
+- Published rates: door production N4,000 per board, kitchen cabinets N3,500,
+  wardrobes N3,500
+- "Trusted by 1,200+ clients in Lagos and nationwide"
+- Nationwide delivery, and site jobs
+- Contact: 0818 854 8997, @yettymoore_concept
+
+Placeholder, clearly marked on the page:
+
+- Photography is licensed stock from Unsplash, not the client's own product
+  photos
+- Testimonials are empty slots waiting for her real Instagram reviews
+- The showroom address is missing and needs to come from her
+
+## Run it
+
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 16, Tailwind v4, no external runtime dependencies.
